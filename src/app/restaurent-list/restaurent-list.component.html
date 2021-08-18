@@ -1,0 +1,39 @@
+<div class="container"> 
+  <div class="row" style="padding-top: 20px;">
+  <h1>Find Your Favourite Restaurent!!!</h1>
+  </div>
+  <br>
+<div class="row">
+  <div class="col-sm-2">
+     <label for="website">Select City: </label>
+    </div>
+    <div class="col-sm-3">
+    <select name="abc" id="aantal" [(ngModel)]="selectedCity"   (change)="changeCity($event)">
+        <option *ngFor="let option of options" [ngValue]="option">{{option}}</option>
+    </select>
+  </div>
+</div>
+<br>
+<div class="row" *ngIf="selectedCity">
+<div class="list-group">
+    <div *ngFor="let item of restList" >
+    <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+      <div class="d-flex w-100 justify-content-between">
+        <h5 class="mb-1">{{item.name}}</h5>
+        <small>Open Time: {{item.opentime}}</small>
+       
+      </div>
+      <p class="mb-1">Menu: {{ item.description}}</p>
+      <small>Address:{{item.address}},Mobile No. {{item.phonenumber}}</small>
+       <span style="float:right" class="edit" > 
+        <!-- <a style="float:right" class="edit" routerLink="/restaurent-detail"></a> -->
+        <a type="button" [routerLink]="['/restaurent-detail', item.name]" class="btn btn-success btn-sm">Click For More Detail</a>
+      </span>
+    </a>
+    <br>
+</div>
+    
+  </div>
+</div>
+<!-- <router-outlet></router-outlet> -->
+</div>

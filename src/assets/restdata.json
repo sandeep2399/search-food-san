@@ -1,0 +1,257 @@
+[
+    {
+        "id": 1,
+        "name": "Punjabi By Nature Noida",
+        "description": "North Indian, Paratha, etc.",
+        "phonenumber": "9935562278",
+        "imageUrl": "https://source.unsplash.com/1600x900/?product",
+        "opentime": "9 AM to 10 PM",
+        "address": "Noida, Sector 18",
+        "city":"Noida"
+    },
+    {
+        "id": 2,
+        "name": "MacD Noida",
+        "description": "Burger, Roll, etc.",
+        "phonenumber": "9935562278",
+        "imageUrl": "https://source.unsplash.com/1600x900/?product",
+        "opentime": "9 AM to 10 PM",
+        "address": "Noida, Sector 141",
+        "city":"Noida"
+    },
+    {
+        "id": 3,
+        "name": "Evergreen Noida",
+        "description": "Sweets, NAmkeen, Samosa etc.",
+        "phonenumber": "9935562278",
+        "imageUrl": "https://source.unsplash.com/1600x900/?product",
+        "opentime": "9 AM to 10 PM",
+        "address": "Noida, Sector 34",
+        "city":"Noida"
+    },
+    {
+        "id": 4,
+        "name": "Bikaner Noida",
+        "description": "Snacks, Golpapee, Chaat papadi",
+        "phonenumber": "9935562278",
+        "imageUrl": "https://source.unsplash.com/1600x900/?product",
+        "opentime": "9 AM to 10 PM",
+        "address": "Noida, Extension",
+        "city":"Noida"
+    },
+    {
+        "id": 5,
+        "name": "Sagar Ratna Noida",
+        "description": "South Indian, Dosha, Idli etc.",
+        "phonenumber": "9935562278",
+        "imageUrl": "chinese.jpg",
+        "opentime": "9 AM to 10 PM",
+        "address": "Noida, Sector 15",
+        "city":"Noida"
+    },
+    
+    {
+        "id": 1,
+        "name": "Punjabi By Nature Gurugram",
+        "description": "North Indian",
+        "phonenumber": "9935562278",
+        "imageUrl": "northindia.jpg",
+        "opentime": "9 AM to 10 PM",
+        "address": "Gurugram, Sector 18",
+        "city":"Gurugram"
+    },
+    {
+        "id": 2,
+        "name": "MacD Gurugram",
+        "description": "Burger",
+        "phonenumber": "9935562278",
+        "imageUrl": "poori.jpg",
+        "opentime": "9 AM to 10 PM",
+        "address": "Gurugram, Sector 141",
+        "city":"Gurugram"
+    },
+    {
+        "id": 3,
+        "name": "Evergreen Gurugram",
+        "description": "Sweets",
+        "phonenumber": "9935562278",
+        "imageUrl": "sweets.jpg",
+        "opentime": "9 AM to 10 PM",
+        "address": "Gurugram, Sector 34",
+        "city":"Gurugram"
+    },
+    {
+        "id": 4,
+        "name": "Bikaner Gurugram",
+        "description": "Snacks",
+        "phonenumber": "9935562278",
+        "imageUrl": "snacks.jpg",
+        "opentime": "9 AM to 10 PM",
+        "address": "Gurugram, Extension",
+        "city":"Gurugram"
+    },
+    {
+        "id": 5,
+        "name": "Sagar Ratna Gurugram",
+        "description": "South Indian",
+        "phonenumber": "9935562278",
+        "imageUrl": "chinese.jpg",
+        "opentime": "9 AM to 10 PM",
+        "address": "Gurugram, Sector 15",
+        "city":"Gurugram"
+    },
+
+    {
+        "id": 1,
+        "name": "Punjabi By Nature Delhi",
+        "description": "North Indian",
+        "phonenumber": "9935562278",
+        "imageUrl": "https://source.unsplash.com/1600x900/?product",
+        "opentime": "9 AM to 10 PM",
+        "address": "Delhi, Sector 18",
+        "city":"Delhi"
+    },
+    {
+        "id": 2,
+        "name": "MacD Delhi",
+        "description": "Burger",
+        "phonenumber": "9935562278",
+        "imageUrl": "https://source.unsplash.com/1600x900/?product",
+        "opentime": "9 AM to 10 PM",
+        "address": "Delhi, Sector 141",
+        "city":"Delhi"
+    },
+    {
+        "id": 3,
+        "name": "Evergreen Delhi",
+        "description": "Sweets",
+        "phonenumber": "9935562278",
+        "imageUrl": "https://source.unsplash.com/1600x900/?product",
+        "opentime": "9 AM to 10 PM",
+        "address": "Delhi, Sector 34",
+        "city":"Delhi"
+    },
+    {
+        "id": 4,
+        "name": "Bikaner Delhi",
+        "description": "Snacks",
+        "phonenumber": "9935562278",
+        "imageUrl": "https://source.unsplash.com/1600x900/?product",
+        "opentime": "9 AM to 10 PM",
+        "address": "Delhi, Extension",
+        "city":"Delhi"
+    },
+    {
+        "id": 5,
+        "name": "Sagar Ratna Delhi",
+        "description": "South Indian",
+        "phonenumber": "9935562278",
+        "imageUrl": "https://source.unsplash.com/1600x900/?product",
+        "opentime": "9 AM to 10 PM",
+        "address": "Delhi, Sector 15",
+        "city":"Delhi"
+    },
+
+    {
+        "id": 1,
+        "name": "Punjabi By Nature Goa",
+        "description": "North Indian",
+        "phonenumber": "9935562278",
+        "imageUrl": "https://source.unsplash.com/1600x900/?product",
+        "opentime": "9 AM to 10 PM",
+        "address": "Goa, Sector 18",
+        "city":"Goa"
+    },
+    {
+        "id": 2,
+        "name": "MacD Goa",
+        "description": "Burger",
+        "phonenumber": "9935562278",
+        "imageUrl": "https://source.unsplash.com/1600x900/?product",
+        "opentime": "9 AM to 10 PM",
+        "address": "Goa, Sector 141",
+        "city":"Goa"
+    },
+    {
+        "id": 3,
+        "name": "Evergreen Goa",
+        "description": "Sweets",
+        "phonenumber": "9935562278",
+        "imageUrl": "https://source.unsplash.com/1600x900/?product",
+        "opentime": "9 AM to 10 PM",
+        "address": "Goa, Sector 34",
+        "city":"Goa"
+    },
+    {
+        "id": 4,
+        "name": "Bikaner Goa",
+        "description": "Snacks",
+        "phonenumber": "9935562278",
+        "imageUrl": "https://source.unsplash.com/1600x900/?product",
+        "opentime": "9 AM to 10 PM",
+        "address": "Goa, Extension",
+        "city":"Goa"
+    },
+    {
+        "id": 5,
+        "name": "Sagar Ratna Goa",
+        "description": "South Indian",
+        "phonenumber": "9935562278",
+        "imageUrl": "https://source.unsplash.com/1600x900/?product",
+        "opentime": "9 AM to 10 PM",
+        "address": "Goa, Sector 15",
+        "city":"Goa"
+    },
+
+    {
+        "id": 1,
+        "name": "Punjabi By Nature Mumbai",
+        "description": "North Indian",
+        "phonenumber": "9935562278",
+        "imageUrl": "https://source.unsplash.com/1600x900/?product",
+        "opentime": "9 AM to 10 PM",
+        "address": "Mumbai, Sector 18",
+        "city":"Mumbai"
+    },
+    {
+        "id": 2,
+        "name": "MacD Mumbai",
+        "description": "Burger",
+        "phonenumber": "9935562278",
+        "imageUrl": "https://source.unsplash.com/1600x900/?product",
+        "opentime": "9 AM to 10 PM",
+        "address": "Mumbai, Sector 141",
+        "city":"Mumbai"
+    },
+    {
+        "id": 3,
+        "name": "Evergreen Mumbai",
+        "description": "Sweets",
+        "phonenumber": "9935562278",
+        "imageUrl": "https://source.unsplash.com/1600x900/?product",
+        "opentime": "9 AM to 10 PM",
+        "address": "Mumbai, Sector 34",
+        "city":"Mumbai"
+    },
+    {
+        "id": 4,
+        "name": "Bikaner Mumbai",
+        "description": "Snacks",
+        "phonenumber": "9935562278",
+        "imageUrl": "https://source.unsplash.com/1600x900/?product",
+        "opentime": "9 AM to 10 PM",
+        "address": "Mumbai, Extension",
+        "city":"Mumbai"
+    },
+    {
+        "id": 5,
+        "name": "Sagar Ratna Mumbai",
+        "description": "South Indian",
+        "phonenumber": "9935562278",
+        "imageUrl": "https://source.unsplash.com/1600x900/?product",
+        "opentime": "9 AM to 10 PM",
+        "address": "Mumbai, Sector 15",
+        "city":"Mumbai"
+    }
+   
+]
