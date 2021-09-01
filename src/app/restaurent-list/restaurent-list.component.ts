@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Rest } from '../model/Rest';
 import { RestaurentServiceService } from '../restaurent-service.service';
+import {Store} from '@ngrx/store';
+import * as restListActions from './restaurent-list.action'
 
 @Component({
   selector: 'app-restaurent-list',
@@ -16,13 +18,24 @@ export class RestaurentListComponent implements OnInit {
   
 
   constructor(
-    private restaurentService : RestaurentServiceService 
+    private restaurentService : RestaurentServiceService ,
+    private store: Store<any>
 ) {
   this.restList=[];
 }
 
 ngOnInit(){
-  this.getAllRest();
+//use service call
+  //this.getAllRest();
+
+  //use ngrx
+  this.store.dispatch(new restListActions.GetRest);
+
+  this.store.select('restList').subscribe(response => {
+        this.restList = response.restList;
+        //this.loading = response.loading;
+  });
+
 }
  
 getAllRest(){

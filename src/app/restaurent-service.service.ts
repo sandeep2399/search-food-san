@@ -34,6 +34,16 @@ public getAllRest(): Observable<any> {
     //   catchError(this.errorMgmt)
     // );
   }
+
+  getDetailsForTest(){
+    const resultPromise = new Promise((resolve,reject) => {
+        setTimeout(() => {
+            resolve('Data');
+        }, 3000)
+    })
+
+    return resultPromise;
+}
   
   errorMgmt(error: HttpErrorResponse) {
     let errorMessage = '';

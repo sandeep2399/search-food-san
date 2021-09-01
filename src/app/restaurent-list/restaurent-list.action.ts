@@ -1,4 +1,5 @@
 import {Action} from '@ngrx/store';
+import { Rest } from '../model/Rest';
 
 //ACTION TYPES 
 export enum TasksActionType{
@@ -15,7 +16,7 @@ export class GetRest implements Action {
 //action creator -2
 export class GetRestSuccess implements Action {
   readonly type = TasksActionType.GET_REST_SUCCESS;
-  constructor(public payload: Array<tasks>){
+  constructor(public payload: Array<Rest>){
 
   }
 }

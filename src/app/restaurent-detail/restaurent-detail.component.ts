@@ -11,7 +11,7 @@ import { RestaurentServiceService } from '../restaurent-service.service';
 export class RestaurentDetailComponent implements OnInit {
 
   rest:Rest;
-   name:string="";
+   public name:string="";
    allRestList :Rest[]=[];
    
    constructor(private _Activatedroute:ActivatedRoute,

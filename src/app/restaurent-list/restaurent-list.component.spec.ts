@@ -22,7 +22,7 @@ it('Test if Restaurent list is returned',()=>{
   let fixture= TestBed.createComponent(RestaurentListComponent);
 let appObj=fixture.debugElement.componentInstance;
 let restService=fixture.debugElement.injector.get(RestaurentServiceService);
-//expect(restService.getRestByName('Noida')).toEqual(appObj.re);
+expect(restService.getAllRest()).toBeGreaterThanOrEqual(50);
 })
 
 })
