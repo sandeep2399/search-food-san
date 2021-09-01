@@ -3,11 +3,13 @@ import { RouterTestingModule } from '@angular/router/testing';
 import { HttpClientTestingModule } from "@angular/common/http/testing";
 import { RestaurentListComponent } from "../restaurent-list/restaurent-list.component";
 import { RestaurentServiceService } from "../restaurent-service.service";
+import { StoreModule } from "@ngrx/store";
 describe('',()=>{
 beforeEach(()=>{
   TestBed.configureTestingModule({
-    imports:[RouterTestingModule,HttpClientTestingModule],
+    imports:[RouterTestingModule,HttpClientTestingModule, StoreModule.forRoot({})],
     declarations:[RestaurentListComponent]
+   
   })
 })
 //arrange, action, assert 

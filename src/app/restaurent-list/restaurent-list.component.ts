@@ -26,15 +26,15 @@ export class RestaurentListComponent implements OnInit {
 
 ngOnInit(){
 //use service call
-  //this.getAllRest();
+  this.getAllRest();
 
   //use ngrx
-  this.store.dispatch(new restListActions.GetRest);
+  // this.store.dispatch(new restListActions.GetRest);
 
-  this.store.select('restList').subscribe(response => {
-        this.restList = response.restList;
-        //this.loading = response.loading;
-  });
+  // this.store.select('restList').subscribe(response => {
+  //       this.restList = response.restList;
+  //       //this.loading = response.loading;
+  // });
 
 }
  

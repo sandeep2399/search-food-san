@@ -6,6 +6,9 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { RestaurentListComponent } from './restaurent-list/restaurent-list.component';
 import { RestaurentDetailComponent } from './restaurent-detail/restaurent-detail.component';
+import { EffectsModule } from '@ngrx/effects';
+import { RestaurentServiceService } from './restaurent-service.service';
+import { StoreModule } from '@ngrx/store';
 
 
 @NgModule({
@@ -18,9 +21,11 @@ import { RestaurentDetailComponent } from './restaurent-detail/restaurent-detail
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    EffectsModule.forRoot([]),
+    StoreModule.forRoot({})
   ],
-  providers: [],
+  providers: [RestaurentServiceService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -7,10 +7,11 @@ import { RestaurentDetailComponent } from "./restaurent-detail.component";
 import { promises } from "dns";
 import { exception } from "console";
 import { Observable, observable } from "rxjs";
+import { StoreModule } from "@ngrx/store";
 describe('',()=>{
 beforeEach(()=>{
   TestBed.configureTestingModule({
-    imports:[RouterTestingModule,HttpClientTestingModule],
+    imports:[RouterTestingModule,HttpClientTestingModule, StoreModule.forRoot({})],
     declarations:[RestaurentDetailComponent]
   })
 })
