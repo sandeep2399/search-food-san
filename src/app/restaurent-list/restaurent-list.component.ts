@@ -32,8 +32,8 @@ ngOnInit(){
   // this.store.dispatch(new restListActions.GetRest);
 
   // this.store.select('restList').subscribe(response => {
-  //       this.restList = response.restList;
-  //       //this.loading = response.loading;
+  //       this.restList = response;
+  // this.allRestList=response;
   // });
 
 }

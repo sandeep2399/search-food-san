@@ -2,7 +2,8 @@ import {Action} from '@ngrx/store';
 import { Rest } from '../model/Rest';
 
 //ACTION TYPES 
-export enum TasksActionType{
+
+export enum TasksActionType {
     GET_REST = 'GET_REST',
     GET_REST_SUCCESS = 'GET_REST_SUCCESS',
     GET_REST_FAILED = 'GET_REST_FAILED'
